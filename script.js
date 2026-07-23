@@ -1,3 +1,4 @@
+//consts, lets, variáveis
 const diminuir = document.getElementById("diminuir");
 const reset = document.getElementById("reset");
 const aumentar = document.getElementById("aumentar");
@@ -5,10 +6,12 @@ const numero = document.getElementById("contador");
 
 let contador = 0;
 
+//Função para Atualizar Tela, ao invés de usar "numero.textContent = contador;" três vezes
 function atualizarTela() {
     numero.textContent = contador;
 }
 
+//Aumentar Contador
 aumentar.addEventListener("click", aumentarContador);
 
 function aumentarContador() {
@@ -16,6 +19,7 @@ function aumentarContador() {
     atualizarTela();
 }
 
+//Diminuir Contador
 diminuir.addEventListener("click", diminuirContador);
 
 function diminuirContador() {
@@ -23,6 +27,7 @@ function diminuirContador() {
     atualizarTela();
 }
 
+//Resetar Contador
 reset.addEventListener("click", resetContador);
 
 function resetContador() {
