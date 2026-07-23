@@ -1,4 +1,5 @@
 //debug
+alert("O JavaScript carregou!");
 console.log("Script carregado!");
 
 //consts, lets, variáveis
