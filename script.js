@@ -1,6 +1,6 @@
 //debug
-alert("O JavaScript carregou!");
-console.log("Script carregado!");
+//alert("O JavaScript carregou!");
+//console.log("Script carregado!");
 
 //consts, lets, variáveis
 const diminuir = document.getElementById("diminuir");
