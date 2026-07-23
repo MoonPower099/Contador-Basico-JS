@@ -38,3 +38,17 @@ function resetContador() {
     contador = 0;
     atualizarTela();
 }
+
+//temas
+const tema = document.getElementById("tema");
+
+tema.addEventListener("click", trocarTema);
+
+function trocarTema(){
+    body.classList.toggle("dark");
+
+if (body.classList.contains("dark")){
+    tema.textContent= "☀️";}
+else{
+    tema.textContent = "🌙";}
+}
