@@ -34,7 +34,7 @@ function diminuirContador() {
 }
 
 //Resetar Contador
-resetar.addEventListener("click", resetarContador);
+resetar.addEventListener("click", resetContador);
 
 function resetContador() {
     contador = 0;
