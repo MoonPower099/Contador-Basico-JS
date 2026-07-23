@@ -4,7 +4,7 @@ console.log("Script carregado!");
 
 //consts, lets, variáveis
 const diminuir = document.getElementById("diminuir");
-const reset = document.getElementById("reset");
+const reset = document.getElementById("resetContador");
 const aumentar = document.getElementById("aumentar");
 const numero = document.getElementById("contador");
 
