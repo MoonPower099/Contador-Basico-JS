@@ -5,23 +5,27 @@ const numero = document.getElementById("contador");
 
 let contador = 0;
 
+function atualizarTela() {
+    numero.textContent = contador;
+}
+
 aumentar.addEventListener("click", aumentarContador);
 
 function aumentarContador() {
     contador ++;
-    numero.textContent = contador;
+    atualizarTela();
 }
 
 diminuir.addEventListener("click", diminuirContador);
 
 function diminuirContador() {
     contador --;
-    numero.textContent = contador;
+    atualizarTela();
 }
 
 reset.addEventListener("click", resetContador);
 
 function resetContador() {
     contador = 0;
-    numero.textContent = contador;
+    atualizarTela();
 }
