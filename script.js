@@ -1,3 +1,6 @@
+//debug
+console.log("Script carregado!");
+
 //consts, lets, variáveis
 const diminuir = document.getElementById("diminuir");
 const reset = document.getElementById("reset");
