@@ -7,6 +7,8 @@ const diminuir = document.getElementById("diminuir");
 const reset = document.getElementById("resetContador");
 const aumentar = document.getElementById("aumentar");
 const numero = document.getElementById("contador");
+const tema = document.getElementById("tema");
+const body= document.body;
 
 let contador = 0;
 
@@ -40,15 +42,14 @@ function resetContador() {
 }
 
 //temas
-const tema = document.getElementById("tema");
-
 tema.addEventListener("click", trocarTema);
 
-function trocarTema(){
+function trocarTema() {
     body.classList.toggle("dark");
 
-if (body.classList.contains("dark")){
-    tema.textContent= "☀️";}
-else{
-    tema.textContent = "🌙";}
+    if (body.classList.contains("dark")) {
+        tema.textContent = "☀️";
+    } else {
+        tema.textContent = "🌙";
+    }
 }
