@@ -4,7 +4,7 @@
 
 //consts, lets, variáveis
 const diminuir = document.getElementById("diminuir");
-const reset = document.getElementById("resetContador");
+const resetar = document.getElementById("resetarContador");
 const aumentar = document.getElementById("aumentar");
 const numero = document.getElementById("contador");
 const tema = document.getElementById("tema");
